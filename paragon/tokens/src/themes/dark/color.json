@@ -1,7 +1,33 @@
 {
   "$type": "color",
   "color": {
+    "light": {
+      "base": {
+        "$value": "#DDDFE2",
+        "source": "$primary",
+        "actions": {
+          "default": "{color.light.base}"
+        },
+        "$description": "Basic light color, dark theme."
+      }
+    },
     "primary": {
+      "100": {
+        "source": "$primary-100",
+        "actions": {
+          "default": "{color.primary.100}"
+        },
+        "$value": "#8e9fbf",
+        "$description": "Primary color of level 100."
+      },
+      "500": {
+        "source": "$primary-500",
+        "actions": {
+          "default": "{color.primary.500}"
+        },
+        "$value": "#747e92",
+        "$description": "Primary color of level 500."
+      },
       "base": {
         "$value": "#AEC7F6",
         "source": "$primary",
@@ -47,7 +73,7 @@
         "$description": "Text base color, dark theme."
       },
       "footer": {
-        "$value": "#374151",
+        "$value": "{color.text.primary}",
         "source": "$footer-color",
         "actions": {
           "default": "{color.text.footer}"
@@ -72,6 +98,11 @@
       }
     },
     "bg": {
+      "info": {
+        "$value": "{color.primary.light}",
+        "$type": "color",
+        "source": "$btn-info-hover-bg"
+      },
       "light-overlay": {
         "$value": "#36383B",
         "source": "$bg-light-overlay",
@@ -96,10 +127,43 @@
         "actions": {
           "default": "{color.body.bg}"
         },
-        "$description": "Light background overlay color, dark theme."
+        "$description": "Body background color, dark theme."
+      },
+      "base": {
+        "$value": "{color.text.base}",
+        "source": "$body-text",
+        "$description": "Light text color, dark theme."
+      }
+    },
+    "header": {
+      "bg": {
+        "$value": "#0D0D0E",
+        "source": "$body-bg",
+        "actions": {
+          "default": "{color.body.bg}"
+        },
+        "$description": "Header background color, dark theme."
+      }
+    },
+    "accent": {
+      "a": {
+        "$value": "{color.primary.base}",
+        "source": "$body-bg",
+        "actions": {
+          "default": "{color.body.bg}"
+        },
+        "$description": "Accent color, dark theme."
       }
     },
     "success": {
+      "500": {
+        "source": "$success-500",
+        "actions": {
+          "default": "{color.success.500}"
+        },
+        "$value": "#3a8e41",
+        "$description": "Success color of level 500."
+      },
       "base": {
         "$value": "#54CF5E",
         "source": "$success",
@@ -118,6 +182,14 @@
         },
         "$description": "Basic danger color, dark theme."
       }
+    },
+    "white": {
+      "$value": "{color.body.bg}",
+      "source": "$light-100",
+      "actions": {
+        "default": "{color.body.bg}"
+      },
+      "$description": "Header background color Profile page."
     }
   }
 }
