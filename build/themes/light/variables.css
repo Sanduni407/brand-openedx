@@ -650,8 +650,8 @@
   --pgn-color-gray-800: #333333FF; /** Gray color of level 800. */
   --pgn-color-gray-900: #212529FF; /** Gray color of level 900. */
   --pgn-color-gray-base: #707070FF; /** Basic gray color. */
-  --pgn-color-primary-base: #0A3055FF; /** Basic primary color. */
-  --pgn-color-brand-base: #9D0054FF; /** Basic brand color. */
+  --pgn-color-primary-base: #C32D3AFF; /** Basic primary color. */
+  --pgn-color-brand-base: #C32D3AFF; /** Basic brand color. */
   --pgn-color-light-base: #E1DDDBFF; /** Basic light color. */
   --pgn-color-dark-base: #273F2FFF; /** Basic dark color. */
   --pgn-border-color-nav-tabs-link-border-hover-top: transparent;
@@ -1495,8 +1495,8 @@
   --pgn-color-warning-700: #CCAE00FF; /** Warning color of level 700. */
   --pgn-color-warning-800: #BFA300FF; /** Warning color of level 800. */
   --pgn-color-warning-900: #B39800FF; /** Warning color of level 900. */
-  --pgn-color-danger-100: #FBF2F3FF; /** Danger color of level 100. */
-  --pgn-color-danger-200: #F0CBCEFF; /** Danger color of level 200. */
+  --pgn-color-danger-100: #FEF2F2FF; /** Danger color of level 100. */
+  --pgn-color-danger-200: #FEE2E2FF; /** Danger color of level 200. */
   --pgn-color-danger-300: #E1969DFF; /** Danger color of level 300. */
   --pgn-color-danger-400: #D2626BFF; /** Danger color of level 400. */
   --pgn-color-danger-500: var(--pgn-color-danger-base); /** Danger color of level 500. */
@@ -1527,7 +1527,7 @@
   --pgn-color-action-default-success-base: #0F5737FF;
   --pgn-color-action-default-info-base: #004C77FF;
   --pgn-color-action-default-warning-base: #CCAE00FF;
-  --pgn-color-action-default-danger-base: #9A232EFF;
+  --pgn-color-action-default-danger-base: #DC2626FF;
   --pgn-color-action-default-light-100: #E4E4E4FF;
   --pgn-color-action-default-light-200: #E2DED9FF;
   --pgn-color-action-default-light-300: #D9D4D1FF;
