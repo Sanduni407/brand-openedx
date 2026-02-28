@@ -638,7 +638,7 @@
   --pgn-color-mark-bg: #FFF243FF;
   --pgn-color-white: #FFFFFFFF; /** White color. */
   --pgn-color-black: #000000FF; /** Black color. */
-  --pgn-color-blue: #23419FFF; /** Blue color. */
+  --pgn-color-blue: #DC2626FF; /** Blue color. */
   --pgn-color-red: #C32D3AFF; /** Red color. */
   --pgn-color-green: #178253FF; /** Green color. */
   --pgn-color-yellow: #FFD900FF; /** Yellow color. */
@@ -813,7 +813,7 @@
   --pgn-color-form-input-bg-disabled: var(--pgn-color-gray-100);
   --pgn-color-form-input-group-addon-bg: var(--pgn-color-gray-100);
   --pgn-color-form-control-indicator-border: var(--pgn-color-gray-700);
-  --pgn-color-form-control-indicator-checked-bg-disabled: #15376D80;
+  --pgn-color-form-control-indicator-checked-bg-disabled: #991B1B80;
   --pgn-color-form-control-select-bg-disabled: var(--pgn-color-gray-100);
   --pgn-color-form-control-select-bg-size: var(--pgn-color-gray-100);
   --pgn-color-form-control-range-track-bg: var(--pgn-color-gray-300);
@@ -1084,7 +1084,7 @@
   --pgn-color-badge-focus-bg-primary: #0D2142FF;
   --pgn-color-badge-focus-bg-light: #CAC3BFFF;
   --pgn-color-badge-focus-bg-dark: #142018FF;
-  --pgn-color-badge-focus-box-shadow-primary: #15376D0D;
+  --pgn-color-badge-focus-box-shadow-primary: #991B1B0D;
   --pgn-color-badge-focus-box-shadow-light: #E1DDDB0D;
   --pgn-color-badge-focus-box-shadow-dark: #273F2F0D;
   --pgn-color-breadcrumb-base: var(--pgn-color-primary-500);
@@ -1847,7 +1847,7 @@
   --pgn-color-link-base: var(--pgn-color-info-500);
   --pgn-color-link-inline-base: var(--pgn-color-info-500);
   --pgn-color-link-muted-hover: #09172DFF;
-  --pgn-color-link-muted-inline-decoration: #15376D4D;
+  --pgn-color-link-muted-inline-decoration: #991B1B4D;
   --pgn-color-link-muted-inline-hover-base: #09172DFF;
   --pgn-color-link-brand-hover: #51002BFF;
   --pgn-color-link-brand-inline-decoration: #9D00544D;

@@ -9,15 +9,15 @@
   --pgn-elevation-box-shadow-level-3: 0px 8px 20px 0px rgba(255,255,255,0.15), 0px 10px 20px 0px rgba(255,255,255,0.15);
   --pgn-elevation-box-shadow-level-4: 0px 8px 48px 0px rgba(255,255,255,0.15), 0px 20px 40px 0px rgba(255,255,255,0.15);
   --pgn-color-light-base: #DDDFE2FF; /** Basic light color, dark theme. */
-  --pgn-color-primary-100: #8E9FBFFF; /** Primary color of level 100. */
-  --pgn-color-primary-500: #747E92FF; /** Primary color of level 500. */
-  --pgn-color-primary-base: #AEC7F6FF; /** Basic primary color, dark theme. */
+  --pgn-color-primary-100: #FCA5A5FF; /** Primary color of level 100. */
+  --pgn-color-primary-500: #EF4444FF; /** Primary color of level 500. */
+  --pgn-color-primary-base: #DC2626FF; /** Basic primary color, dark theme. */
   --pgn-color-primary-light: #292A2CFF; /** Light primary color, dark theme. */
   --pgn-color-primary-border: #777792FF; /** Primary border color, dark theme. */
   --pgn-color-brand-base: #CE80AAFF; /** Basic brand color, dark theme. */
   --pgn-color-text-base: #F8F8F8FF; /** Text base color, dark theme. */
   --pgn-color-text-primary: #DDDFE2FF; /** Text primary color, dark theme. */
-  --pgn-color-text-button: #112F6BFF; /** Button text color, dark theme. */
+  --pgn-color-text-button: #7F1D1DFF; /** Button text color, dark theme. */
   --pgn-color-bg-light-overlay: #36383BFF; /** Light background overlay color, dark theme. */
   --pgn-color-bg-hover: #383938FF; /** Background hover color, dark theme. */
   --pgn-color-body-bg: #0D0D0EFF; /** Body background color, dark theme. */
