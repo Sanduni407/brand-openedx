@@ -1,12 +1,22 @@
-$primary: #15376D;
-$brand: #15376D;
-$primary-light: #F2F7F8;
-$light-dark: #374151;
-$text-color: #111827;
-$text-color-primary: #515661;
-$gray-700: #4b5563;
-$text-color-light: #515661;
-$light-theme-switch-bg-color: #1D386A;
+// ─── Red 600 Primary Color System ───────────────────────────────────────────
+// Primary: #DC2626 (Tailwind Red-600)
+// Generated light-mode scale derived from the primary swatch.
+
+$primary:   #DC2626; // Red-600 — buttons, links, active states
+$brand:     #DC2626; // Brand accent (mirrors primary)
+
+// Tint backgrounds — Red-50 equivalent (very light warm blush)
+$primary-light: #FEF2F2;
+
+// ─── Neutral / text tokens (unchanged) ──────────────────────────────────────
+$light-dark:          #374151;
+$text-color:          #111827;
+$text-color-primary:  #515661;
+$gray-700:            #4b5563;
+$text-color-light:    #515661;
+
+// Toggle switch track colour in light mode — Red-700
+$light-theme-switch-bg-color: #B91C1C;
 
 // for toggle theme button
 $page-color-transition: transparent .2s ease, color .2s ease;
