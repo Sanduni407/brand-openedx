@@ -543,3 +543,23 @@ footer.tutor-container {
         font-size: 14px;
     }
 }
+// Custom override for footer logo
+footer .logo img,
+footer img.logo,
+.wrapper-footer img.logo,
+.wrapper-footer .logo img,
+.footer-logo img,
+img.footer-logo {
+    content: url('/footer-logo.png');
+    max-height: 50px;
+    width: auto;
+}
+
+
+.powered-area img,
+.powered-area .logo {
+    content: url('/footer-logo.png');
+    max-height: 50px;
+    width: auto;
+}
+
